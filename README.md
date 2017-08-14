@@ -1,26 +1,10 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+First Ionic 2 App
 
-## How to use this template
+## IonicFirebaseAuth
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
+This app can be used for Android or iOS, it implements Firebase and its wrapper (AngularFire2) to be able to connect to firebase and its authentication feature.
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
+Right now it only works with Facebook Authentication, but can be implemented to use Email/Twitter/Google/etc...
 
-### With the Ionic CLI:
-
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
-
-```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myBlank blank
-```
-
-Then, to run it, cd into `myBlank` and run:
-
-```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
-```
-
-Substitute ios for android if not on a Mac.
+Also, you need to use your own Firebase API-KEY that can be found when creating an app in Firebase Console.
 

@@ -15,10 +15,10 @@ import { AngularFireAuth } from 'angularfire2/auth';
 import { Facebook } from "@ionic-native/facebook";
 
 export const firebaseConfig = {
-  apiKey: "AIzaSyDSX5-0dq5NVxKIzmwckNVwx9ETdJbfcBE",
-  authDomain: "ionicfirebaseauth-d558f.firebaseapp.com",
-  databaseURL: "https://ionicfirebaseauth-d558f.firebaseio.com",
-  storageBucket: "ionicfirebaseauth-d558f.appspot.com",
+  apiKey: "<FIREBASE-API-KEY>",
+  authDomain: "<APP-IDENTIFIER>.firebaseapp.com",
+  databaseURL: "https://<APP-IDENTIFIER>.firebaseio.com",
+  storageBucket: "<APP-IDENTIFIER>.appspot.com",
 };
 
 @NgModule({
